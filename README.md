@@ -47,7 +47,7 @@ By using this software, you agree to the [Commons Clause license](https://common
    go build -ldflags "-s -w"
 
 
-🛠️ Usage
+## 🛠️ Usage
 Upon execution, the tool will attempt to collect sensitive information from the system.
 Ensure you have the necessary permissions and are operating within a legal and ethical framework.
 
@@ -57,5 +57,6 @@ You are not permitted to sell this repository or any code from it.
 
 💵 Donations 
 BTC=bc1qdvmgkdve7shhduz9tclwsrq2rpwzwhj48c98x3
+
 LTC=LYDgVKX7iWRaSDuD25D7pmFX2uYmZVFDM9
 
