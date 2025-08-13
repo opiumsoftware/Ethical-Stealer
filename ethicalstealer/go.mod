@@ -1,4 +1,4 @@
-module github.com/hackirby/skuld
+module github.com/opiumsoftware/Ethical-Stealer
 
 go 1.21.3
 
