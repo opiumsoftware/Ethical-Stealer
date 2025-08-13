@@ -14,7 +14,7 @@ import (
 
 	"encoding/json"
 
-	"github.com/hackirby/skuld/utils/hardware"
+	"github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/utils/hardware"
 	"github.com/shirou/gopsutil/v3/process"
 )
 
