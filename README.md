@@ -55,7 +55,7 @@ Ensure you have the necessary permissions and are operating within a legal and e
 This project is licensed under the Commons Clause license.
 You are not permitted to sell this repository or any code from it.
 ---
-##💵 Donations 
+#💵 Donations 
 BTC=bc1qdvmgkdve7shhduz9tclwsrq2rpwzwhj48c98x3
-   LTC=LYDgVKX7iWRaSDuD25D7pmFX2uYmZVFDM9
+LTC=LYDgVKX7iWRaSDuD25D7pmFX2uYmZVFDM9
 ---
