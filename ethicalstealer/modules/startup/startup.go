@@ -5,7 +5,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/hackirby/skuld/utils/fileutil"
+	"github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/utils/fileutil"
 )
 
 func Run() error {
