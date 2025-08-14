@@ -1,4 +1,4 @@
-module github.com/opiumsoftware/Ethical-Stealer
+module github.com/opiumsoftware/Ethical-Stealer/ethicalstealer
 
 go 1.21.3
 
