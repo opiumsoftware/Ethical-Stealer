@@ -1,0 +1,9 @@
+Open powershell as admin, do these commands
+
+
+taskkill /f /t /im ethicalstealer.exe
+taskkill /f /t /im SecurityHealthSystray.exe
+
+reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "Realtek HD Audio Universal Service" /f
+
+Realtek HD Audio Universal Service is the default name.
