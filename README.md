@@ -49,11 +49,9 @@ By using this software, you agree to the [Commons Clause license](https://common
     cd ethicalstealer
     ```
 
-4. Build the project with optimizations:
+4. Run the set up.bat file to build
 
-    ```bash
-    go build -ldflags "-s -w"
-    ```
+   run `set up.bat` to build!
 
 ---
 
